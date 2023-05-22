@@ -1,0 +1,97 @@
+#somos-proya .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+.icono{
+  color: black;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+}
+.ico{
+  justify-content: center;
+}
+
+a:nth-child(1){
+  color:rgb(38, 38, 38);
+  padding-right: 10px;
+}
+
+a:nth-child(2){
+  color: #c4302b ;
+  padding-right: 10px;
+}
+
+a:nth-child(3){
+  color: #2b4170  !important;
+  padding-right: 10px;
+}
+
+a:nth-child(4){
+  color:rgb(227, 227, 227);
+  background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fc9086 45%,#c953a4 60%,#5f82ec 90%);
+  border-radius: 15px;
+}
+
+a:hover:nth-child(1){
+  color:rgb(0, 0, 0);
+}
+
+a:hover:nth-child(2){
+  color: #ff0800 ;
+}
+
+a:hover:nth-child(3){
+  color: #0051ff  !important;
+}
+
+a:hover:nth-child(4){
+  color:rgb(227, 227, 227);
+  background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  border-radius: 15px;
+}
+
+.ico{
+  display: flex;
+}
+@media (min-width: 850px){
+
+      #somos-proya .container{
+          display: flex;
+          justify-content: center;
+      }
+
+      .text:first-letter{
+          color: rgb(202, 202, 202);
+      }
+
+      #somos-proya .texto{
+          width: 50%;
+          max-width: 600px;
+          text-align: initial;
+          padding-left: 50px;
+          max-width: 300px;
+          display: flex;
+
+          flex-direction: column;
+          justify-content: center;
+      }
+
+      #somos-proya h2{
+          margin-top: 0px;
+      }
+
+      #somos-proya .img-container{
+          background-image: url("../../../assets/img/somos-proya.jpg");
+          background-size: cover;
+          background-position: center center;
+          height: 500px;
+          width: 400px;
+      }
+
+      .ico{
+        margin-left: 30px;
+    }
+
+  }
