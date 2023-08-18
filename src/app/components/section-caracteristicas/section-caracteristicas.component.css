@@ -12,7 +12,7 @@
   @media (min-width: 850px){
 
         #caracteristicas{
-            background-image: url(./assets/img/background-2.1.png);
+            background-image: url(../../../assets/img/background-2.1.png);
             background-repeat: no-repeat;
             background-size: 500px 400px;
             background-position: 0 100px;

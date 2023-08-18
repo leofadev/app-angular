@@ -10,7 +10,7 @@
       rgba(0,0,0,0.5),
       rgba(0,0,0,0.5)
   )
-  ,url(./assets/img/hero.jpg);
+  ,url(../../../assets/img/hero.jpg);
   color: white;
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,7 +24,7 @@
 
 
 @media (min-width: 850px){
-  
+
       #hero h1{
           font-size: 5em;
       }

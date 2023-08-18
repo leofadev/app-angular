@@ -32,7 +32,7 @@ padding: 150px 12px;
       rgba(0,0,0,0.5),
       rgba(0,0,0,0.5)
   )
-  ,url(./assets/img/front-end.jpg);
+  ,url(../../../assets/img/front-end.jpg);
 }
 
 .carta:nth-child(2){
@@ -41,7 +41,7 @@ padding: 150px 12px;
       rgba(0,0,0,0.5),
       rgba(0,0,0,0.5)
   )
-  ,url(./assets/img/full-stack.jpg);
+  /* ,url(./assets/img/full-stack.jpg); */
 }
 
 .carta:nth-child(3){
@@ -50,7 +50,7 @@ padding: 150px 12px;
       rgba(0,0,0,0.5),
       rgba(0,0,0,0.5)
   )
-  ,url(./assets/img/python.jpg);
+  /* ,url(./assets/img/python.jpg); */
 }
 
 @media (min-width: 850px){
