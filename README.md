@@ -1,29 +1,40 @@
-# AppAngular
+# App Angular – Portafolio
+
+Landing page de mi portafolio personal (**LeofaDev**) construida con Angular. Es una página de una sola vista dividida en componentes por sección.
 
 🔗 **Demo:** [leofadev.github.io/app-angular](https://leofadev.github.io/app-angular/)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+## Tecnologías
 
-## Development server
+- [Angular 15](https://angular.dev/) + TypeScript
+- CSS por componente
+- Jasmine + Karma para pruebas unitarias
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Secciones
 
-## Code scaffolding
+| Componente | Contenido |
+|---|---|
+| `header` | Logo y menú de navegación |
+| `section-hero` | Portada con llamado a la acción |
+| `section-somos-proya` | Quién soy |
+| `section-nuestros-programas` | Proyectos realizados (CRUD, piano en JavaScript, sitio de noticias, etc.) |
+| `section-caracteristicas` | Características destacadas |
+| `section-final` | Llamado a la acción final |
+| `section-footer` | Pie de página |
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Todos los componentes están en `src/app/components/` y las imágenes en `src/assets/img/`.
 
-## Build
+## Ejecutar en local
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Requiere Node.js 18 o superior.
 
-## Running unit tests
+```bash
+npm install
+npm start         # servidor de desarrollo en http://localhost:4200/
+npm run build     # build de producción en dist/app-angular/
+npm test          # pruebas unitarias
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Despliegue
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Cada push a `master` compila el proyecto con `--base-href /app-angular/` y lo publica en GitHub Pages mediante el workflow [`deploy-pages.yml`](.github/workflows/deploy-pages.yml).
